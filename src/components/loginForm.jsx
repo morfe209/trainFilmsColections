@@ -24,7 +24,7 @@ class LoginForm extends Form {
 
   render() {
     return (
-      <div>
+      <div className="container justify-content-md-center">
         <h1>Login form</h1>
         <form onSubmit={this.handleSubmit}>
           {this.renderInput("username", "Username")}
